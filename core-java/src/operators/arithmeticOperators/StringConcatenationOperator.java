@@ -1,4 +1,4 @@
-package operators;
+package operators.arithmeticOperators;
 
 public class StringConcatenationOperator {
 

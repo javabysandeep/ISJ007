@@ -18,6 +18,5 @@ public class Demo8Switch {
             case "jpeg" -> System.out.println("jpeg file reading logic");
             default -> System.out.println("Invalid file typ");
         }
-
     }
 }

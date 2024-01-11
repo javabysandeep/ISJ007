@@ -2,7 +2,7 @@ package controlStatements.loopingStatements;
 
 public class Demo4 {
     public static void main(String[] args) {
-        for (; /*false*/;) {
+        for (; ;) {
             System.out.println("*");
         }
         //by default condition is true

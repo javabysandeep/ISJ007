@@ -1,0 +1,59 @@
+1. decision-making or conditional control statements
+    1. if else
+    2. switch
+
+2. looping control statements :
+    1. for loop
+    2. while loop
+    3. do while
+
+    for(initialization; condition; increment/decrement){
+        //for body
+
+    }
+
+    // condition --> direct, expression, variable, method call
+    while(condition){
+        //while body
+
+    }
+
+
+    do {
+            //statements --> at least once
+    } while(condition);
+
+
+3. jump or transfer control statements
+    1. break
+    2. continue
+    3. return
+
+
+   break :
+    - this is a keyword which is used only inside the loop and switch
+    - whenever break statements executes it will be end of loop or switch
+    - it is only end of loop or switch not the end of method
+        node 1 --> node2 --> node3 --> node4 --> node1
+
+   continue :
+    - this is also keyword which is used only inside the loops otherwise CTE
+    - whenever continue statement executes it will skip the current iteration, and it will continue from next iteration
+    - it is not end of loop or method.
+
+    return :
+    - this is also a keyword which is used inside the method[if, else, switch, loops]
+    - whenever return statement executes it will be end of method and control be transferred to caller method
+    - it will be usually last statement in the method.
+    - it used to return some value to the caller method.
+        - syntax : return value
+                     - value can be  : direct value, expression, variable, method call
+    -
+
+
+
+
+
+
+
+

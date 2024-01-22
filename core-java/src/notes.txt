@@ -50,6 +50,107 @@
                      - value can be  : direct value, expression, variable, method call
     -
 
+------------------------------------------------------------------------------------------------------------
+
+JVM Architecture
+
+How Java works?
+    1. Write the code --> Notepad, IDE
+    2. compile the code --> Java Compiler
+    3. run the code ---> JRE [Java Runtime Environment/Engine]
+
+
+Java Development Kit [JDK]
+    - Java compiler
+    - debugger
+    - profilers
+    - tools
+    - JRE
+        - JVM
+    - As a developer, we need JDK
+
+
+Java Virtual Machine [JVM]
+    - it is a software
+
+
+In detail, how java works?
+    1. we write java code and save it in .java file
+    2. we use java compiler to compile the .java file
+        - javac FileName.java
+    3. java compiler generates a .class file which is also called as
+        - byte code
+        - magic code
+        - intermediate code english like code
+        - this is non-binary code
+        - .class file does not contain binary code
+    4. we use JRE to run the code
+        - JRE will read the byte code and generate the binary code which is understood by underlying platform or machine
+            - JVM is doing this.
+        - java ClassName
+            - class which contains main method
+
+ ----- execution [JRE]----------------
+    - ClassLoader is a program which loads the class in the memory[execution]
+    - Byte Code Verifier is a program which verifies the byte code.
+
+    ----------------------------------------------------------------------
+
+    1. HEAP Memory area
+        - objects will be stored inside heap memory
+        - instance variables will be stored
+
+    2. Java Method Execution Stack memory area
+        - local variables will be stored
+        - it maintains the method execution stack.
+        - at the end of program, stack will be empty
+        - if it is a single threaded app, main method will be the first method to be added on the stack
+
+    3. Class or method memory area
+        - this will store class structure
+        - static variables will be stored
+
+    4. Native Method Execution Stack Memory area
+        - it will maintain the stack of non-java method execution
+
+    5. Native memory area
+        - it will store non-java code structure.
+
+    6. PC memory area
+        - it holds information regarding the next instruction to be executed.
+
+    ----------------------------------------------------------------------
+
+- Native Method Interface
+
+- Native method library
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

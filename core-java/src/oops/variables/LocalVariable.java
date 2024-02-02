@@ -1,4 +1,4 @@
-package oops;
+package oops.variables;
 
 public class LocalVariable {
     int p; // instance variables and static variables will get the default value

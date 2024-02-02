@@ -1,4 +1,4 @@
-package oops;
+package oops.variables;
 
 import java.time.LocalDateTime;
 

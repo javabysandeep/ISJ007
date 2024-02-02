@@ -1,4 +1,4 @@
-package oops;
+package oops.variables;
 
 public class StudentTest2 {
     public static void main(String[] args) {

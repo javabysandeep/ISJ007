@@ -1,4 +1,4 @@
-package oops;
+package oops.variables;
 
 public class Student {
     int id = 1;

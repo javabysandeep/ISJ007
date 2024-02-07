@@ -8,7 +8,7 @@ public class Demo8Switch {
         Scanner scanner = new Scanner(System.in);
         String fileType = scanner.next();
         switch (fileType) {
-            case "pdf" -> System.out.println("PDF file reading logic");
+            /*case "pdf" -> System.out.println("PDF file reading logic");
             case "excel" -> System.out.println("excel file reading logic");
             case "json" -> System.out.println("json file reading logic");
             case "xml" -> System.out.println("xml file reading logic");
@@ -16,7 +16,7 @@ public class Demo8Switch {
             case "data" -> System.out.println("data file reading logic");
             case "properties" -> System.out.println("properties file reading logic");
             case "jpeg" -> System.out.println("jpeg file reading logic");
-            default -> System.out.println("Invalid file typ");
+            default -> System.out.println("Invalid file typ");*/
         }
     }
 }

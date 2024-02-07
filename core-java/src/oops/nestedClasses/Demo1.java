@@ -8,13 +8,13 @@ public class Demo1 {
 
     //non-static nested class or inner class
     class B {
-        static int a = 100;
+       // static int a = 100;
     }
 
     public static void main(String[] args) {
         // local inner class : without static keyword
         class C {
-            static int a = 100;
+           // static int a = 100;
         }
     }
 
